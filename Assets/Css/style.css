@@ -1,10 +1,10 @@
-/*============reset les proprietes par defaut=============*/
+/*============Les proprietes par defaut=============*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*============================Police de caractere=======================*/
+/*================La police de caractere=======================*/
 @font-face {
     font-family: 'Far Form Homecoming';
     src: url(../Far-From\ Homecoming\ Updated.otf);
@@ -18,7 +18,7 @@
     --color4:#000000;
     --color5:#FFFFFF;
 }
-/*======================Donne de toute le document======================*/
+/*======================Toute les parties des documents======================*/
 h1{
     font-size: 32px;
     font-weight: 400;
@@ -62,7 +62,7 @@ a:hover{
 nav p{
     color: var(--color5);
 }
-/*==========Premiere partie cinema==============*/
+/*==========Premiere ligne du cinema==============*/
 .premiere{
     color: var(--color5);
     background-position: top;
@@ -94,7 +94,7 @@ nav p{
     align-self: flex-end;
     justify-self: flex-end;
 }
-/*==========Deuxieme partie deviens==============*/
+/*==========Deuxieme ligne deviens==============*/
 .devien{
     background-size: contain;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ input{
     margin: 0.5% 0;
     border-radius: 50px;
 }
-/*==========Troisieme partie inscrire==============*/
+/*==========Troisieme ligne inscrire==============*/
 .inscrire{
     padding: 14% 0;
     background-size: contain;

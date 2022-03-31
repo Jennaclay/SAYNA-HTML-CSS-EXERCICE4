@@ -1,4 +1,4 @@
-/*======================les variables de couleurs======================*/
+/*======================les variables couleurs======================*/
 :root{
     --color1:#B11313;
     --color2:#F1C530;
@@ -6,11 +6,11 @@
     --color4:#000000;
     --color5:#FFFFFF;
 }
-/*===============Header==============*/
+/*===============Le Header==============*/
 .hvilain{
     background-color: var(--color2);
 }
-/*============Vilains=======*/
+/*============Partie Vilains=======*/
 .vilain{
     background-size: cover;
     background-image: url(../Illustration/img7.png);
@@ -26,7 +26,7 @@
 .hvtitre h3{
     font-size: 30px;
 }
-/*==========liste des vilains=========*/
+/*==========liste des parties vilains=========*/
 .lvilain{
     display: flex;
     flex-wrap: wrap;

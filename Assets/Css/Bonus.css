@@ -1,4 +1,4 @@
-/*======================les variables de couleurs======================*/
+/*======================La partie des variables de couleurs======================*/
 :root{
     --color1:#B11313;
     --color2:#F1C530;
@@ -6,7 +6,7 @@
     --color4:#000000;
     --color5:#FFFFFF;
 }
-/*=======Corps du page=========*/
+/*=======Le Corps du page=========*/
 .menu{
     font-size: xx-large;
 }

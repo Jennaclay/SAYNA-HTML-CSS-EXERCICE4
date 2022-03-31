@@ -2,7 +2,7 @@
     font-family: 'Far Form Homecoming';
     src: url(../Far-From\ Homecoming\ Updated.otf);
 }
-/*======================les variables de couleurs======================*/
+/*======================Parie des variables de couleurs======================*/
 :root{
     --color1:#B11313;
     --color2:#F1C530;
@@ -14,7 +14,7 @@
 .lova{
     background-color: var(--color3);
 }
-/*================Heros===============*/
+/*================Les Heros===============*/
 .hero{
     padding: 11% 0 22% 0;
     background-size: cover;
@@ -33,7 +33,7 @@
     text-decoration: none;
     font-family: 'Montserrat', Arial, sans-serif;
 }
-/*============Valeurs===========*/
+/*============Les valeurs===========*/
 .valeur{
     background-color: var(--color3);
 }
@@ -47,7 +47,7 @@ iframe{
     width: 600px;
     height: 450px;
 }
-/*============Fondations===========*/
+/*============Les fondations===========*/
 .fondation{
     padding: 15% 0 10% 2%;
     background-size: cover;
@@ -77,7 +77,7 @@ iframe{
 span{
     font-weight: 900;
 }
-/*===========Avengers==============*/
+/*===========Partie Avengers==============*/
 .avenger{
     background-color: var(--color1);
 }
@@ -86,7 +86,7 @@ span{
     line-height: 30px;
     text-align: justify;
 }
-/*===========Univers==============*/
+/*===========Les univers==============*/
 .univers{
     background-size: cover;
     background-image: url(../Illustration/img33.png);
