@@ -1,0 +1,170 @@
+/*============reset les proprietes par defaut=============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*============================Police de caractere=======================*/
+@font-face {
+    font-family: 'Far Form Homecoming';
+    src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+
+/*======================les variables de couleurs======================*/
+:root{
+    --color1:#B11313;
+    --color2:#F1C530;
+    --color3:#114C92;
+    --color4:#000000;
+    --color5:#FFFFFF;
+}
+/*======================Donne de toute le document======================*/
+h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-weight: normal;
+    color: var(--color5);
+    font-family: 'Far Form Homecoming',Arial, sans-serif;
+}
+h2, h3, p, a{
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color5);
+}
+.soustitre{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color5);
+}
+p, a{
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: normal;
+    color: var(--color5);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+/*==============Header=====================*/
+.barre{
+    background-color: var(--color1);
+}
+nav p{
+    color: var(--color5);
+}
+/*==========Premiere partie cinema==============*/
+.premiere{
+    color: var(--color5);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--color1);
+    background-image: url(../Illustration/img1.png);
+}
+.btn{
+    border-radius: 15px;
+}
+.btn:hover{
+    color: grey;
+}
+.heros{
+    font-size: medium;
+    color: var(--color1);
+    background-color: var(--color5);
+}
+.adve{
+    font-size: medium;
+    color: var(--color5);
+    border: 2px solid var(--color5);
+}
+.hspara{
+    text-align: justify;
+}
+.hsbtn{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+/*==========Deuxieme partie deviens==============*/
+.devien{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--color3);
+    background-image: url(../Illustration/img5.png);
+}
+input{
+    width: 75%;
+    padding: 1% 2%;
+    margin: 0.5% 0;
+    border-radius: 50px;
+}
+/*==========Troisieme partie inscrire==============*/
+.inscrire{
+    padding: 14% 0;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: var(--color1);
+    background-image: url(../Illustration/img6.png);
+}
+.marge{
+    margin: 5% 20%;
+}
+.form-check-label{
+    color: var(--color5);
+}
+.poli{
+    font-weight: 600;
+    color: var(--color3);
+    text-decoration: solid;
+}
+/*==========Footer==============*/
+.footer{
+    background-color: var(--color4);
+}
+.navi{
+    width: 90%;
+    margin: auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.lange{
+    display: flex;
+}
+#wrouge, #mrouge {
+    background-color: var(--color1);
+}
+select{
+    border: none;
+    padding: 2% 25%;
+    border-radius: 25px;
+    color: var(--color5);
+    background-color: var(--color1);
+}
+.rond{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items:center ;
+    justify-content: center;
+    background-color: var(--color1);
+}
+
+@media screen and (max-width:768px){
+    .inscrire{
+        padding: 10% 0;
+    }
+    .hspara{
+        text-align: center;
+    }
+}
